@@ -1,3 +1,0 @@
-Este SPA foi criado através da Claude com o seguinte prompt:
-
-"Crie uma single-page application (SPA) em NodeJS e Electron , que permite alterar a data de um metadados um arquivo qualquer. Este aplicativo deve ter dois botões, um botão para permitir abrir uma Dialog que possa localizar no PC o arquivo e outro botão para efetivar a alteração da data do arquivo. Deve ter tambem um campo Field que apresenta o caminho do arquivo localizado no computador."
