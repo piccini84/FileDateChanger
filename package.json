@@ -1,0 +1,14 @@
+{
+  "name": "file-date-changer",
+  "version": "1.0.0",
+  "description": "An Electron app to change file metadata dates",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^13.0.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}

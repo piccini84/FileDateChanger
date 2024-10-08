@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Date Changer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Date Changer</h1>
+        <input type="text" id="filePath" readonly placeholder="Selected file path">
+        <button id="selectFile">Select File</button>
+        <button id="changeDate">Change Date</button>
+        <p id="message"></p>
+    </div>
+
+    <div id="infoIcon" class="info-icon">
+        <i class="fas fa-info-circle"></i>
+    </div>
+
+    <div id="infoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>About File Date Changer</h2>
+            <p>Version: 1.0.0</p>
+            <p>Author: Fernando Piccini</p>
+            <p>This application allows you to change the metadata date of files.</p>
+        </div>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
